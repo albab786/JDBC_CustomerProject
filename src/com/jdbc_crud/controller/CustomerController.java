@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class CustomerController {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+System.out.println();
         CustomerDao dao = new CustomerDao();
         CustomerService service = new CustomerService();
         while (true) {
